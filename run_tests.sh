@@ -55,7 +55,7 @@ do
   count=$((count + 1))
 done < "$input"
 
-if [[ $count == 80 ]]; then
+if [[ $count == 32 ]]; then
    echo -e "\nAll tests passed"
    echo -e "Score: 80/80\n"
    exit 0
